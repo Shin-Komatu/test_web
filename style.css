@@ -1,8 +1,9 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+color: blue;
 }
 
 h1 {
-    color: blue;
+    color: rgb(110, 110, 199);
 }
