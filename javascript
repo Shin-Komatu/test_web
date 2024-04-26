@@ -4,11 +4,18 @@ window.addEventListener('load', function() {
 });
 
 // クリックイベントハンドラの追加
-document.querySelector('button').addEventListener('click', function() {
-    alert('ボタンがクリックされました！');
+document.addEventListener('DOMContentLoaded', function() {
+    // ボタンがクリックされたときの処理
+    document.querySelector('button').addEventListener('click', function() {
+        alert('ボタンがクリックされました！');
+    });
 });
 
 // DOM操作の例
-document.querySelector('h1').textContent = 'こんにちは、みなさん！';
+document.addEventListener('DOMContentLoaded', function() {
+    // h1要素のテキストを変更する
+    document.querySelector('h1').textContent = 'こんにちは、みなさん！';
+});
+
 
     
