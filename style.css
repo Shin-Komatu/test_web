@@ -6,3 +6,16 @@ h1 {
 h2 {
     color: orange;
 }
+@keyframes example-animation {
+    0% {
+        opacity: 0; /* 開始時のスタイル */
+    }
+    100% {
+        opacity: 1; /* 終了時のスタイル */
+    }
+}
+.element {
+    animation-name: example-animation; /* 使用する@keyframesルールの名前 */
+    animation-duration: 2s; /* アニメーションの実行時間 */
+    animation-iteration-count: infinite; /* アニメーションの繰り返し回数（無限） */
+}
