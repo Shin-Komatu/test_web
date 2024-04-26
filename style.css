@@ -6,6 +6,7 @@ h1 {
 h2 {
     color: orange;
 }
+
 @keyframes example-animation {
     0% {
         opacity: 0; /* 開始時のスタイル */
@@ -14,15 +15,15 @@ h2 {
         opacity: 1; /* 終了時のスタイル */
     }
 }
+
 .element {
     animation-name: example-animation; /* 使用する@keyframesルールの名前 */
     animation-duration: 2s; /* アニメーションの実行時間 */
     animation-iteration-count: infinite; /* アニメーションの繰り返し回数（無限） */
 }
+
 body {
     background-color: #f0f0f0; /* グレーの背景色 */
-}
-body {
     background-image: url('https://jp.zekkeijapan.com/datas/cache/images/2023/12/11/800x533_ea1e9d427fb5664c32c517a73e421e58_4b4122e15c7f00451d337105ce62bbdbb59690a7.jpg'); /* 背景画像のURL */
     background-size: cover; /* 画像を要素全体に広げる */
     background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
