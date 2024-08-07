@@ -1,18 +1,36 @@
-/* style.css */
-h1 {
-    color: blue;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    color: orange;
+header {
+    background-color: #011502;
+    color: rgb(212, 31, 31);
+    text-align: center;
+    padding: 1em;
 }
 
-@keyframes example-animation {
-    0% {
-        opacity: 0; /* 開始時のスタイル */
-    }
-    100% {
-        opacity: 1; /* 終了時のスタイル */
-    }
+main {
+    padding: 1em;
+}
+
+section {
+    
+    color: rgb(212, 31, 34);
+    margin-bottom: 1em;
+}
+h2{background-color: #011502;}
+p {
+    color: black; /* pタグ内の文字を黒くする */
+}
+footer {
+    background-color: #f1f1f1;
+    color: #e00a0a;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
